@@ -9,29 +9,6 @@ from enum import Enum
 # Develop an object-orientated program
 # Define a card class
 
-# enums for suit
-class Suit(Enum):
-    diamonds = 'd'
-    clubs = 'c'
-    spades = 's'
-    hearts = 'h'
-
-# Enum for the card rank
-class Rank(Enum):
-    Ace = 1
-    Two = 2
-    Three = 3
-    Four = 4
-    Five = 5
-    Six = 6
-    Seven = 7
-    Eight = 8
-    Nine = 9
-    Ten = 10
-    Jack = 11
-    Queen = 12
-    King = 13
-
 # Defines a class Card
 class Card:
 
@@ -42,31 +19,40 @@ class Card:
         # sets the rank and suit based on passed parameters
         self.rank = rank
         self.suit = suit
+        self.ranks = [None, "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
+        self.suits = {
+            "s" : "Spades",
+            "d" : "Diamonds",
+            "c" : "Clubs",
+            "h" : "Hearts"
+        }
 
     # returns the rank of the card
     def getRank(self):
-        return self.rank.value
+        return self.rank
 
     # returns the suit of the card
     def getSuit(self):
-        return self.suit.value
+        return self.suit
 
     # returns the blackjack value of the card
     def bjValue(self):
-        if self.rank.value < 10:
-            return self.rank.value
+        if self.rank < 10:
+            return self.rank
         else:
             return 10
 
+    # gets the card value
+
     # returns a string of the name of the card
     def __str__(self):
-        return "%s of %s" % (self.rank.name, self.suit.name)
+        return "%s of %s" % (self.ranks[self.rank], self.suits.get(self.suit))
 
 # Test Program: #
 # Create two Card objects
 
 # testing default constructor
-defaultCard = Card(Rank.Ace, Suit.spades)
+defaultCard = Card(1, "s")
 print(defaultCard)
 print(defaultCard.getRank())
 print(defaultCard.getSuit())
@@ -74,16 +60,36 @@ print(defaultCard.bjValue())
 print()
 
 # testing two additional objects
-card1 = Card(Rank.Queen, Suit.hearts)
+card1 = Card(12, "h")
 print(card1)
 print(card1.getRank())
 print(card1.getSuit())
 print(card1.bjValue())
 print()
 
-card2 = Card(Rank.Six, Suit.clubs)
+card2 = Card(6, "c")
 print(card2)
 print(card2.getRank())
 print(card2.getSuit())
 print(card2.bjValue())
 
+# Output
+"""
+Ace of Spades
+1
+s
+1
+
+Queen of Hearts
+12
+h
+10
+
+6 of Clubs
+6
+c
+6
+
+Process finished with exit code 0
+
+"""
