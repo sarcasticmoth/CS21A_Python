@@ -4,7 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/Python/Assignment3.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7aeca6-83db-489b-a2c8-e3c0610639e9" name="Default Changelist" comment="fixed assignment 5">
+    <list default="true" id="7d7aeca6-83db-489b-a2c8-e3c0610639e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python/Assignment6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Assignment5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Assignment5.py" afterDir="false" />
     </list>
@@ -50,32 +51,33 @@
     <session id="1908885033">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1043" />
+          <entry key="py" value="2291" />
           <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="1043" />
+          <entry key="Python" value="2291" />
         </counts>
       </usages-collector>
     </session>
@@ -114,11 +116,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Assignment5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="253">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Assignment6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
             </state>
           </provider>
         </entry>
@@ -142,13 +153,14 @@
         <option value="$PROJECT_DIR$/Assignment1/Assignment2.py" />
         <option value="$PROJECT_DIR$/Python/Assignment3.py" />
         <option value="$PROJECT_DIR$/Python/Assignment5.py" />
+        <option value="$PROJECT_DIR$/Python/Assignment6.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1942" />
-    <option name="height" value="2092" />
+    <option name="height" value="2010" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Assignment5">
+  <component name="RunManager" selected="Python.Assignment6">
     <configuration name="Assignment1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,14 +292,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Assignment6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Assignment6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Assignment1" />
       <item itemvalue="Python.Assignment2" />
       <item itemvalue="Python.Assignment3" />
       <item itemvalue="Python.Assignment5" />
+      <item itemvalue="Python.Assignment6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Assignment6" />
         <item itemvalue="Python.Assignment5" />
         <item itemvalue="Python.Assignment3" />
         <item itemvalue="Python.Assignment2" />
@@ -348,24 +383,31 @@
       <option name="project" value="LOCAL" />
       <updated>1540837467594</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed assignment 5">
+      <created>1541176729677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541176729677</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <frame x="-6" y="-6" width="1933" height="1012" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3162889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33259177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33449882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31934732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32640332" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32634032" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -410,7 +452,8 @@
     <MESSAGE value="finished assignment 3" />
     <MESSAGE value="add assignment 5" />
     <MESSAGE value="finished assignment 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished assignment 5" />
+    <MESSAGE value="fixed assignment 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed assignment 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment1/Assignment1.py" />
@@ -429,8 +472,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Assignment5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="253">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Assignment6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>

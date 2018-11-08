@@ -4,14 +4,11 @@
     29 October 2018
     Assignment 5
 """
-from enum import Enum
-
 # Develop an object-orientated program
 # Define a card class
 
 # Defines a class Card
 class Card:
-
     # default constructor for the Card class
     # that accepts values for rank and suit
     # used to create an object of Card
@@ -19,8 +16,8 @@ class Card:
         # sets the rank and suit based on passed parameters
         self.rank = rank
         self.suit = suit
-        self.ranks = [None, "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
-        self.suits = {
+        Card.ranks = [None, "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
+        Card.suits = {
             "s" : "Spades",
             "d" : "Diamonds",
             "c" : "Clubs",
@@ -46,7 +43,7 @@ class Card:
 
     # returns a string of the name of the card
     def __str__(self):
-        return "%s of %s" % (self.ranks[self.rank], self.suits.get(self.suit))
+        return "%s of %s" % (Card.ranks[self.rank], Card.suits.get(self.suit))
 
 # Test Program: #
 # Create two Card objects
