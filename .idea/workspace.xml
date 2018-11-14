@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7aeca6-83db-489b-a2c8-e3c0610639e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/Assignment6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Assignment7/assignment7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Assignment7/employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Assignment7/manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Assignment5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Assignment5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
     <session id="1908885033">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -71,12 +72,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="2291" />
-          <entry key="txt" value="46" />
+          <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="PLAIN_TEXT" value="67" />
           <entry key="Python" value="2291" />
         </counts>
       </usages-collector>
@@ -84,52 +85,60 @@
     <session id="892619174">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1713" />
+          <entry key="py" value="1858" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Python" value="1713" />
+          <entry key="Python" value="1858" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Assignment5.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Assignment7/employee.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="105" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <marker date="1542235831766" expanded="true" signature="150:155" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/Assignment6.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Assignment7/manager.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Assignment7/assignment7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -154,6 +163,9 @@
         <option value="$PROJECT_DIR$/Python/Assignment3.py" />
         <option value="$PROJECT_DIR$/Python/Assignment5.py" />
         <option value="$PROJECT_DIR$/Python/Assignment6.py" />
+        <option value="$PROJECT_DIR$/Python/Assignment7/manager.py" />
+        <option value="$PROJECT_DIR$/Python/Assignment7/assignment7.py" />
+        <option value="$PROJECT_DIR$/Python/Assignment7/employee.py" />
       </list>
     </option>
   </component>
@@ -178,6 +190,12 @@
               <item name="CS21A_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS21A_Python" type="462c0819:PsiDirectoryNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS21A_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS21A_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,19 +408,26 @@
       <option name="project" value="LOCAL" />
       <updated>1541176729677</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished assignment 6">
+      <created>1541653990713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541653990713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1012" extended-state="6" />
+    <frame x="67" y="-8" width="1861" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10970927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33449882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33449882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31934732" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +478,8 @@
     <MESSAGE value="add assignment 5" />
     <MESSAGE value="finished assignment 5" />
     <MESSAGE value="fixed assignment 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed assignment 5" />
+    <MESSAGE value="finished assignment 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished assignment 6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment1/Assignment1.py" />
@@ -470,13 +496,6 @@
         <state relative-caret-position="-162" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Assignment5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -484,10 +503,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Assignment5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python/Assignment6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Assignment7/assignment7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Assignment7/manager.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Assignment7/employee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1542235831766" expanded="true" signature="150:155" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
