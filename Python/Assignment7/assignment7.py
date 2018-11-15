@@ -49,3 +49,54 @@ if __name__ == "__main__":
     print("\nGet Employee Salaries:")
     for e in companyEmployees:
         print(e.getSalary())
+
+# Output
+"""
+Jose Ulloa makes $20000, and their SSN: 987-65-4321 Title: Manager and Bonus: $2000
+Jose Ulloa makes $22000, and their SSN: 987-65-4321 Title: Manager and Bonus: $2000
+
+Vatche Alexan makes $20000, and their SSN: 876-54-3210 Title: Manager and Bonus: $2000
+Vatche Alexan makes $22000, and their SSN: 876-54-3210 Title: Manager and Bonus: $2000
+
+Vanessa Ulloa makes $15000, and their SSN: 234-11-0973
+Vanessa Ulloa makes $16500, and their SSN: 234-11-0973
+
+Bob Wilson makes $14000, and their SSN: 876-54-3210
+Bob Wilson makes $15400, and their SSN: 876-54-3210
+
+John Doe makes $13000, and their SSN: 423-41-2341
+John Doe makes $14300, and their SSN: 423-41-2341
+
+
+Tests:
+
+Get Employee First Names:
+Jose
+Vatche
+Vanessa
+Bob
+John
+
+Get Employee Last Names:
+Ulloa
+Alexan
+Ulloa
+Wilson
+Doe
+
+Get Employee SSN:
+987-65-4321
+876-54-3210
+234-11-0973
+876-54-3210
+423-41-2341
+
+Get Employee Salaries:
+22000.0
+22000.0
+16500.0
+15400.0
+14300.0
+
+Process finished with exit code 0
+"""
