@@ -40,18 +40,18 @@ if __name__ == "__main__":
 
     print("___EXTRA CREDIT___")
     extraCreditFile = open('hand.pkl', 'wb')
-    pickle.dump(h3, extraCreditFile)
+    pickle.dump(h1, extraCreditFile)
     extraCreditFile.close()
 
     extraCreditFile = open('hand.pkl', 'rb')
     h4 = pickle.load(extraCreditFile)
 
     print("\n**Pickle Test**")
-    print(h3)
+    print(h1)
     print(h4)
 
-    if h3.bjValue() == h4.bjValue():
-        print("Contents of h3 and h4 match!")
+    if h1.bjValue() == h4.bjValue():
+        print("Contents of h1 and h4 match!")
 
 
 # Output
