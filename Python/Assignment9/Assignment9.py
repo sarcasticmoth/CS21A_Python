@@ -33,5 +33,11 @@ print(h3.bjValue())
 h3.hitMe()
 print(h3)
 print(h3.bjValue())
+h3.hitMe()
+print(h3)
+print(h3.bjValue())
+
+
+
 
 # Output
