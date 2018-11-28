@@ -1,7 +1,3 @@
-# use the Card class from assignment 5
-# add exception handlers
-
-
 # One object of this class represents one playing card
 # with a suit and rank
 class Card:
