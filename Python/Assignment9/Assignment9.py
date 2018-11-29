@@ -8,6 +8,10 @@
 from hand import Hand
 import pickle
 
+# This file tests the Hand class by testing the constructor
+# hitMe(), bjValue() and str() methods
+# Multiple hand objects are created.
+
 # Test Class
 if __name__ == "__main__":
     print("___Testing Hand Class___")
@@ -24,6 +28,8 @@ if __name__ == "__main__":
     print(h1)   # verifies that the creation of h2 did not effect h1
 
     print("___Addition Test Cases___")
+    # Test a hand with no cards
+    # and increase the number of cards and verify the bjValue() return value
     h3 = Hand(0)
     print(h3)
     print(h3.bjValue())
@@ -39,6 +45,11 @@ if __name__ == "__main__":
     print(h3.bjValue())
 
     print("___EXTRA CREDIT___")
+    # take a Hand object and store in a pickle file.
+    # the contents of this pickle file are retrived and stored
+    # into a new hand object.
+    # the original hand object and the new object are compared to verify
+    # the objects are identical by comparing the bjValue() of each hand
     extraCreditFile = open('hand.pkl', 'wb')
     pickle.dump(h1, extraCreditFile)
     extraCreditFile.close()
@@ -56,54 +67,54 @@ if __name__ == "__main__":
 
 # Output
 '''
-    ___Testing Hand Class___
-    5 of Hearts
-    3 of Hearts
-    Queen of Hearts
-    
-    18
-    5 of Hearts
-    3 of Hearts
-    Queen of Hearts
-    Queen of Clubs
-    
-    28
-    
-    2 of Diamonds
-    8 of Clubs
-    
-    5 of Hearts
-    3 of Hearts
-    Queen of Hearts
-    Queen of Clubs
-    
-    ___Addition Test Cases___
-    no cards
-    0
-    Jack of Clubs
-    
-    10
-    Jack of Clubs
-    8 of Spades
-    
-    18
-    Jack of Clubs
-    8 of Spades
-    10 of Diamonds
-    
-    28
-    ___EXTRA CREDIT___
-    
-    **Pickle Test**
-    Jack of Clubs
-    8 of Spades
-    10 of Diamonds
-    
-    Jack of Clubs
-    8 of Spades
-    10 of Diamonds
-    
-    Contents of h3 and h4 match!
-    
-    Process finished with exit code 0
+___Testing Hand Class___
+8 of Diamonds
+9 of Spades
+Ace of Spades
+
+18
+8 of Diamonds
+9 of Spades
+Ace of Spades
+6 of Spades
+
+24
+
+4 of Diamonds
+7 of Clubs
+
+8 of Diamonds
+9 of Spades
+Ace of Spades
+6 of Spades
+
+___Addition Test Cases___
+no cards
+0
+Jack of Hearts
+
+10
+Jack of Hearts
+2 of Hearts
+
+12
+Jack of Hearts
+2 of Hearts
+8 of Hearts
+
+20
+___EXTRA CREDIT___
+
+**Pickle Test**
+8 of Diamonds
+9 of Spades
+Ace of Spades
+6 of Spades
+
+8 of Diamonds
+9 of Spades
+Ace of Spades
+6 of Spades
+
+Contents of h1 and h4 match!
 '''

@@ -6,9 +6,6 @@ import random
 # which consists of multiple Card objects
 class Hand:
 
-    # collection of cards
-    hand = []
-
     # default constructor that accepts an int value
     # for the num of cards in hand or num of
     # Card objects
@@ -16,11 +13,14 @@ class Hand:
         if type(numCardsInHand) != int:
             raise TypeError()
 
-        self.numCards = numCardsInHand
+        # variable used to store a collection
+        # of card objects
         self.hand = []
 
-        if self.numCards != 0:
-            for card in range(self.numCards):
+        # for the numCardsInHand specified, call hitMe()
+        # this adds a new card object to the hand
+        if numCardsInHand != 0:
+            for card in range(numCardsInHand):
                 self.hitMe()
 
     # method to get all the blackjack values for each card
